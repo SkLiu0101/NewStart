@@ -6,10 +6,10 @@ import { HeroesComponent }      from './heroes/heroes.component';
 import { HeroDetailComponent }  from './hero-detail/hero-detail.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/sk-dashboard', pathMatch: 'full' },
-  { path: 'sk-dashboard', component: DashboardComponent },
-  { path: 'sk-detail/:id', component: HeroDetailComponent },
-  { path: 'sk-heroes', component: HeroesComponent }
+  { path: '', redirectTo: '/cl-dashboard', pathMatch: 'full' },
+  { path: 'cl-dashboard', component: DashboardComponent },
+  { path: 'detail/:id', component: HeroDetailComponent },
+  { path: 'cl-heroes', component: HeroesComponent }
 ];
 
 @NgModule({
